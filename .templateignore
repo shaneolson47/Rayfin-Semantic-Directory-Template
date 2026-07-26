@@ -1,0 +1,14 @@
+# Development-only files — excluded when bundling this template.
+# Build output, dependencies, and local env are already covered by .gitignore.
+
+# Copilot / agent harness (not part of the template)
+.agents/
+AGENTS.md
+
+# Local Playwright MCP config (dev only)
+.playwright-config.json
+
+# Microsoft community-health files — these live at the gallery repo root,
+# so per-template copies are redundant.
+CODE_OF_CONDUCT.md
+SECURITY.md
